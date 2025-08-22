@@ -54,7 +54,7 @@ collapsible-sidebar/
 
 📸 Screenshots / Demo
 
-![Sidebar Demo](images/sidebar-demo-new.gif)  
+![Sidebar Demo](images/sidebar-demo_new.gif)  
 ![Sidebar Screenshot](images/sidebar_ss-new.png)
 
 
