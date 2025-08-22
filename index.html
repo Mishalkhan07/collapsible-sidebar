@@ -1,0 +1,33 @@
+<!DOCTYPE html> <!-- doc is html-->
+<html lang="en"> <!-- language english-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collapsible Sidebar</title>
+  <link rel="stylesheet" href="style.css"><!-- stylesheet being linked with name style.css-->
+   <link rel="icon" type="image/x-icon" href="favicon.ico"> 
+</head>
+<body>
+  
+  <!-- Sidebar -->
+  <div id="sidebar" class="sidebar closed">
+    <div class="logo">
+      <!-- placeholder for logo -->
+      <img src="images/logo.png" alt = "Logo">
+      <span class = "logo-text">Welcome!</span>
+    </div>
+    <ul class="nav-links"><!-- ul means unordered list-->
+    <!-- gave this class name to style it later-->
+      <li><a href="#"><span>🏠</span> Home</a></li><!-- li is list item-->
+      <li><a href="#"><span>📄</span> About</a></li><!-- href means link placeholder-->
+      <li><a href="#"><span>📞</span> Contact</a></li><!--span puts emoji along with link-->
+      <li><a href="#"><span>⚙️</span> Settings</a></li>
+    </ul>
+  </div>
+
+  <!-- Toggle Button -->
+  <button id="toggleBtn">☰</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
